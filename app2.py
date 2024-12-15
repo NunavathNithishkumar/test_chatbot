@@ -1116,7 +1116,7 @@ with st.container():
                 st.session_state["messages"].append({"sender": "bot", "text": f"An error occurred: {e}"})
 
         # Refresh page to show updated messages
-        st.experimental_rerun()
+        # st.experimental_rerun()
 
 # Footer
 st.markdown("---")
